@@ -1,0 +1,17 @@
+version: '3'
+services:
+
+  # redis:
+  #   image: redis
+  #   ports:
+  #     - '6379:6379'
+
+
+  # app:
+  #   build: .
+  #   command: bash -c "celery -A Celery worker -l info"
+  #   restart: always
+  #   volumes:
+  #     - .:/celery_app
+    # depends_on:
+    #   - redis
